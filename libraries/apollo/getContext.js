@@ -1,9 +1,8 @@
 import initializeAdminApp from "libraries/firebase/initializeAdminApp";
 
-const firebase = initializeAdminApp();
+const firebase = initializeAdminApp();    
 
-export default async () => {
-    
+export default async () => {  
     return {
         firebase
     }
