@@ -6,6 +6,7 @@ const key = getKey();
 const name = uuidv4();
 console.log('\n\n\n\n')
 console.log(admin.apps.length)
+console.log(name)
 console.log("\n\n\n\n");
 let app = admin.initializeApp({
     credential: admin.credential.cert(key),

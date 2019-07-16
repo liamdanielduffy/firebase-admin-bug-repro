@@ -4,7 +4,7 @@ const Query = objectType({
 	name: "Query",
 	definition: t => {
         t.string("hello", {
-            resolve: () => "world!"
+            resolve: () => "world"
         })
     }
 });
