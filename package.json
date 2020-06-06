@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/react": "^16.8.23",
-    "apollo-server-micro": "^2.6.9",
+    "apollo-server-micro": "^2.14.2",
     "firebase-admin": "^8.2.0",
     "graphql": "^14.4.2",
     "next": "^9.0.1",
